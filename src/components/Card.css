@@ -1,0 +1,56 @@
+.Card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 6px;
+}
+
+.Card .Header {
+  display: flex;
+  justify-content: center;
+}
+
+.Card .Header .Title {
+  padding: 6px;
+  flex: 1;
+}
+
+.Card.Red .Header {
+  color: #fff;
+  background-color: rgb(153, 30, 30);
+}
+
+.Card.Red .Content {
+  color: #fff;
+  background-color: rgb(196, 57, 57);
+}
+
+.Card.Green .Header {
+  color: #fff;
+  background-color: rgb(50, 104, 57);
+}
+
+.Card.Green .Content {
+  color: #fff;
+  background-color: rgb(88, 189, 102);
+}
+
+.Card.Blue .Header {
+  color: #fff;
+  background-color: rgb(50, 51, 104);
+}
+
+.Card.Blue .Content {
+  color: #fff;
+  background-color: rgb(88, 98, 189);
+}
+
+.Card.Purple .Header {
+  color: #fff;
+  background-color: rgb(78, 50, 104);
+}
+
+.Card.Purple .Content {
+  color: #fff;
+  background-color: rgb(140, 88, 189);
+}
